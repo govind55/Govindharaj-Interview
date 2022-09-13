@@ -1,0 +1,14 @@
+insert into organization(ID,NAME,ADDRESS,CREATED_ON,CREATED_BY) values(1,'HCL','chennai',CURRENT_TIMESTAMP(),'govindhan');
+insert into organization(ID,NAME,ADDRESS,CREATED_ON,CREATED_BY) values(2,'CTS','chennai',CURRENT_TIMESTAMP(),'govindhan');
+insert into employee(ID,FIRST_NAME,LAST_NAME,GENDER,SALARY,POSITION,ORG_ID,CREATED_ON,CREATED_BY) values(1,'Govindharaj','Marichamy','Male',10000,'Senior Tech Lead',1,CURRENT_TIMESTAMP(),'govindhan');
+insert into employee(ID,FIRST_NAME,LAST_NAME,GENDER,SALARY,POSITION,ORG_ID,CREATED_ON,CREATED_BY) values(2,'Dakshith','Govindharaj','Male',20000,'Trainee',1,CURRENT_TIMESTAMP(),'govindhan');
+insert into employee(ID,FIRST_NAME,LAST_NAME,GENDER,SALARY,POSITION,ORG_ID,CREATED_ON,CREATED_BY) values(3,'Kalyani','PeriyaPerumal','Male',10000,'Tech Lead',2,CURRENT_TIMESTAMP(),'govindhan');
+insert into employee(ID,FIRST_NAME,LAST_NAME,GENDER,SALARY,POSITION,ORG_ID,CREATED_ON,CREATED_BY) values(4,'Nisanthan','Kalyani','Male',20000,'Trainee',2,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(1,'IPHONEX','IPHONE','MOBILE',20000,1,1,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(2,'HP','HP 16','LAPTOP',20000,1,1,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(3,'IPHONEX100','IPHONE1','MOBILE',40000,1,2,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(4,'HP200','HP 15','LAPTOP',70000,1,2,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(5,'IPHONEX300','IPHONE3','MOBILE',20000,2,1,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(6,'HP5','HP 160','LAPTOP',20000,2,1,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(7,'IPHONEX800','IPHONE5','MOBILE',40000,2,2,CURRENT_TIMESTAMP(),'govindhan');
+insert into Asset(ID,ASSET_NAME,asset_Category,asset_Type,PRICE,ORG_ID,EMP_ID,CREATED_ON,CREATED_BY) values(8,'HP600','HP 10','LAPTOP',30000,2,2,CURRENT_TIMESTAMP(),'govindhan');
